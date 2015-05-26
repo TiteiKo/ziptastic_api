@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = '0.1'
   spec.authors       = ["Marion Duprey"]
   spec.email         = ["marion.duprey@gmail.com"]
-  spec.summary       = %q{TODO: Easily make requests to the Ziptastic API}
+  spec.summary       = %q{Easily make requests to the Ziptastic API}
   spec.homepage      = ""
   spec.license       = "MIT"
 
