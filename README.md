@@ -1,13 +1,13 @@
-# Ziptastic::Api
+# ZiptasticApi
 
-TODO: Write a gem description
+Wrapper for ziptastic https://www.getziptastic.com/
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ziptastic-api'
+gem 'ziptastic_api'
 ```
 
 And then execute:
@@ -16,15 +16,18 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ziptastic-api
+    $ gem install ziptastic_api
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+$> ZiptasticApi.get("FR", "78711")
+=> #<ZiptasticApi::Response:0x007f36aedb5358 @city="Mantes-la-Ville", @country="FR", @county="Yvelines", @state="Île-de-France", @state_short="A8", @postal_code="78711">
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/ziptastic-api/fork )
+1. Fork it ( https://github.com/[my-github-username]/ziptastic_api/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
