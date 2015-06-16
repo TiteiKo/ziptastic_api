@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "ziptastic_api"
-  spec.version       = '0.1'
+  spec.version       = '0.2'
   spec.authors       = ["Marion Duprey"]
   spec.email         = ["marion.duprey@gmail.com"]
   spec.summary       = %q{Easily make requests to the Ziptastic API}
