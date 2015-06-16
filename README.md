@@ -23,6 +23,9 @@ Or install it yourself as:
 ```
 $> ZiptasticApi.get("FR", "78711")
 => #<ZiptasticApi::Response:0x007f36aedb5358 @city="Mantes-la-Ville", @country="FR", @county="Yvelines", @state="Île-de-France", @state_short="A8", @postal_code="78711">
+
+$> ZiptasticApi.get("FR", "AZERTY")
+=> ZiptasticApi::UnkownZipCodeError: unknown 'FR':'AZERTY'
 ```
 
 ## Contributing

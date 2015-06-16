@@ -4,5 +4,6 @@ module ZiptasticApi
   end
 end
 
+require 'ziptastic_api/error'
 require 'ziptastic_api/response'
 require 'ziptastic_api/request'

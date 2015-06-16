@@ -7,7 +7,11 @@ module ZiptasticApi
     end
 
     def response
-      @response ||= Response.new(api_response.parsed_response)
+      @response ||= begin
+        raise UnkownZipCodeError.new("unknown '#{country_code}':'#{zip_code}'") if api_response.parsed_response.empty?
+
+        Response.new(api_response.parsed_response)
+      end
     end
 
     private
